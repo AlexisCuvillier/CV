@@ -178,6 +178,11 @@ table{
    margin: auto;
    
 }
+.gauche {
+    margin-right: 25px;
+    
+}
+
 
 	/* tablette */
 
@@ -329,8 +334,8 @@ table{
 
 .name {
     position:absolute;
-    top: 25%;
-    left: 60%;
+    top: 30%;
+    right: 50%;
     transform: translate(100%, -160%);
     font-style: italic;
     
@@ -375,4 +380,8 @@ table{
  margin: auto;
  border: 2px solid ;
  }
+
+ .gauche {
+    margin-right: 55px;
+}
 }
