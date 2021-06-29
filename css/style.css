@@ -1,0 +1,378 @@
+/* reset */
+* { 
+    margin: 0;
+	text-decoration:0;
+    padding:
+}
+
+* {
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+}
+
+/* thead */
+#scrollUp
+{
+position: fixed;
+bottom : 10px;
+right: -100px;
+opacity: 0.5;
+}
+
+
+
+.fond{
+    position: relative;
+    text-align: center;
+}
+
+.imgfond {
+    background-image: url(../img/simplonment.jpg);
+   background-size: contain;
+   background-position-x: center;
+   width: 100%;
+   height: 150px;
+}
+
+.rond {
+    width: 25%;
+   border-radius: 40%; 
+    position: absolute;
+    left: 5%;
+    bottom: 85%;
+}
+
+
+.name {
+    padding-top: 10px;
+    margin-right: 25px;
+    text-align: right;
+    font-style: italic;
+    font-size: 10px;
+}
+
+
+/* body */
+ body{
+ background-color: antiquewhite;
+ }
+
+/* profilperso  */
+.intro{
+    margin-top: 25px;
+    padding-top: 10px;
+    margin-left: 2px;
+    text-align: left;
+    margin-bottom: 35px;
+   
+}
+
+.profilhr {
+   
+    width: 75px;
+    height: 8px;
+    background-color: rgb(104, 100, 100);
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+/* contact */
+
+.contact{
+    padding-top: 10px;
+    margin-left: 2px;
+    text-align: justify;
+    margin-bottom: 35px;
+}
+
+.contacth2 {
+    margin-left: 4px;
+}
+
+ .contacthr {
+    width: 75px;
+    height: 8px;
+    background-color: rgb(104, 100, 100);
+    margin-top: 10px;
+    margin-bottom: 15px;
+     
+    
+ }
+
+ #phone{
+     margin-left: 2px;
+ }
+
+
+ /* Experience pro */
+
+.xp{
+    margin-bottom: 35px;
+}
+
+ .prohr {
+  width: 75px;
+    height: 8px;
+    background-color: rgb(104, 100, 100);
+    margin-top: 10px;
+    margin-bottom: 15px;
+    
+   
+}
+
+.simplon {
+    margin-bottom: 10px;
+}
+
+.creactif {
+    margin-bottom: 10px;
+}
+
+.jardin { 
+    margin-bottom: 10px;
+}
+
+.cuisine {
+    margin-bottom: 10px;
+}
+
+.benevolat {
+    margin-bottom: 10px;
+}
+
+
+.acime {
+    margin-bottom: 10px;
+}
+
+/* formation  */
+
+.hrformation {
+    width: 75px;
+    height: 8px;
+    background-color: rgb(104, 100, 100);
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.formation {
+    margin-bottom: 30px;
+    
+}
+
+.hrcompetence {
+    width: 75px;
+    height: 8px;
+    background-color: rgb(104, 100, 100);
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/* competence  */
+.dial {
+    margin-bottom: 30px;
+}
+
+table{
+   margin: auto;
+   
+}
+
+	/* tablette */
+
+    @media screen and (min-width:768px){
+
+
+        *{
+            font-size: 25px;
+            
+        }
+        
+        .fond{
+            position: relative;
+            text-align: center;
+        }
+
+        .imgfond{
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: center;
+        }
+
+      
+
+        .name{
+            
+             position: absolute;
+             padding-right: 25px;
+            bottom: 75%;
+            font-style: italic;
+          
+        }
+
+        .profilhr {
+        margin-left: 5px;
+        margin-right: 690px;
+        height: 8px;
+        background-color: rgb(104, 100, 100);
+        margin-top: 10px;
+        margin-bottom: 15px;
+    } 
+
+    .contacthr {
+        margin-left: 5px;
+        margin-right: 900px;
+        height: 8px;
+        background-color: rgb(104, 100, 100);
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }   
+    
+ .prohr {
+    margin-left: 5px;
+    margin-right: 690px;
+    height: 8px;
+    background-color: rgb(104, 100, 100);
+    margin-top: 10px;
+    margin-bottom: 15px;
+    
+   
+    }
+
+    .hrformation {
+    margin-left: 5px;
+    margin-right: 690px;
+    height: 8px;
+    background-color: rgb(104, 100, 100);
+    margin-top: 10px;
+    margin-bottom: 15px;
+    }
+
+    .imgfond {
+    width: 100%;
+    height: 280px;
+    }
+
+    .rond {
+    width: 20%;
+   border-radius: 40%; 
+    position: absolute; 
+    left: 5%;
+    bottom: 85%;
+    }
+    .name {
+    position:absolute;
+    left: 25%;
+    right: 35%;
+    transform: translate(100%, -160%);
+    font-style: italic;
+    font-size: 25px;
+    }
+ }
+    /* pc */
+
+@media screen and (min-width:1200px){
+   
+
+
+    .profilhr {
+        width: 75px;
+        height: 8px;
+        background-color: rgb(104, 100, 100);
+        margin-top: 10px;
+        margin-bottom: 15px;
+        
+    } 
+    .contacthr {
+        width: 75px;
+    height: 8px;
+    background-color: rgb(104, 100, 100);
+    margin-top: 10px;
+    margin-bottom: 15px;
+    
+    }   
+    
+ .prohr {
+    width: 75px;
+    height: 8px;
+    background-color: rgb(104, 100, 100);
+    margin-top: 10px;
+    margin-bottom: 15px;
+    
+   
+    }
+
+    .hrformation {
+        width: 75px;
+        height: 8px;
+        background-color: rgb(104, 100, 100);
+        margin-top: 10px;
+        margin-bottom: 15px;
+        
+    }
+
+    .rond {
+    width: 200px;
+   border-radius: 50%; 
+    position: absolute;
+    left: 30%;
+    top: 5%;
+}
+
+.imgfond {
+    background-image: url(../img/simplonment.jpg);
+   background-position-x: center;
+   width: 100%;
+   height: 400px;
+}
+
+.name {
+    position:absolute;
+    top: 25%;
+    left: 60%;
+    transform: translate(100%, -160%);
+    font-style: italic;
+    
+}
+
+
+.intro{
+    
+    font-size:40px;
+    
+    
+} 
+
+.simplon {
+    margin-bottom: 50px;
+}
+
+.creactif {
+    margin-bottom: 50px;
+}
+
+.jardin { 
+    margin-bottom: 50px;
+}
+
+.cuisine {
+    margin-bottom: 50px;
+}
+
+.benevolat {
+    margin-bottom: 50px;
+}
+
+
+.acime {
+    margin-bottom: 50px;
+}
+
+
+ body{
+ width: 50%;
+ margin: auto;
+ border: 2px solid ;
+ }
+}
